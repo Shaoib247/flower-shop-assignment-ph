@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-family: Lato;
+  }
+  .Basic-Design {
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    background: rgba(229, 84, 115, 0.1);
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btn-primary {
+    display: inline-flex;
+    padding: 25px 45px;
+    align-items: flex-start;
+    gap: 15px;
+    font-family: Lato;
+    border-radius: 10px;
+    background: #e55473;
+    border: 0px;
+    color: white;
+  }
+  .flowers-1 {
+    display: block;
+    padding-left: 85px;
+  }
+  
+  .flowers-msg {
+    color: #272727;
+    font-family: Lato;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 700px;
+  }
+  .paragraph{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 650px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  
+  .flowers- go {
+    margin-top: 45px;
+  }
+  
+  
+  .flowers-a {
+    width: 11820px;
+    height: 4867px;
+    background: #fff;
+    text-align: center;
+    display: block;
+  }
+  .blogging-s {
+    margin: 2250px auto;
+    text-align: center;
+    width: 580px;
+  }
+  #our-featured-flowers {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  #para-1 {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  
+  #para-2 {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    padding-top: 25px;
+  }
+  
+  #insta-msg {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .flowers-div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flower-1 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    background-image: url("images/Rectangle_3.png");
+    border-radius: 350px 350px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+  }
+  .flower-2 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    background-image: url("images/green_rectangle.png");
+    border-radius: 350px 350px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+  }
+  .flower-3 {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 350px 350px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+  }
+  .Back {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-decoration-line: underline;
+  }
+  .rectangle-6 {
+    width: 1500px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 70px auto;
+    align-items: center;
+  }
+  .our-services {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    gap: 15px;
+  }
+  .our-service-intro {
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+    margin-right: 60px;
+    margin-top: 50px;
+  }
+  
+  .style-sec {
+    width: 1820px;
+    height: 640px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .hot-deals-fig {
+    color: #272727;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 150px;
+  }
+  #off {
+    color: #e55473;
+  }
+  .para-deal {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    width: 500px;
+    flex-shrink: 0;
+    padding-bottom: 35px;
+  }
+  .original-flower{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .position {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .position-b {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 20px;
+  
+    font-weight: 400;
+    line-height: 40px;
+  }
+  
+  
+  .banner-h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 450px;
+    font-weight: 800;
+    padding-top: 120px;
+  }
+  .input-div{
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .here-we {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .enter-form{
+    width: 600px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  .ter-your-email-here {
+    width: 600px;
+    height: 74px;
+    flex-shrink: 0;
+  }
+  
+  
+  
+  .footer-container {
+    width: 1900px;
+    height: 440px;
+    background-color: #111010;
+  }
+  
+  .footer-b {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 120px;
+  }
+  
+  .footer-para {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    padding-top: 35px;
+  }
+  .copyright {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+  }
